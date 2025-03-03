@@ -1,0 +1,39 @@
+# Composer
+vendor/
+
+# PHPUnit
+phpunit.xml
+.phpunit.result.cache
+
+# Node.js
+node_modules/
+
+# Jest
+coverage/
+
+# Editor specific files
+.idea/              # IntelliJ IDEA
+.vscode/            # Visual Studio Code
+.project/           # Eclipse
+.settings/          # Eclipse
+*.sublime-project   # Sublime
+*.sublime-workspace # Sublime
+*.swp               # Vim swap files
+*.swo               # Vim swap files
+*~                  # Backup files (various editors)
+
+# OS and temporary files
+.DS_Store     # macOS Finder
+Thumbs.db     # Windows Thumbnail Cache
+._*           # macOS hidden files
+
+# Miscellaneous files
+*.log         # Log files
+*.tmp         # Temporary files
+*.bak         # Backup files
+*.diff        # Diff files
+*.patch       # Patch files
+*.orig        # Original files
+*.rej         # Rejected patch files
+*.dump        # Database dump files
+*.zip         # Ignore zip files for distribution

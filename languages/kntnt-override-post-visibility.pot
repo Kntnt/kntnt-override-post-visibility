@@ -1,0 +1,73 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Kntnt Override Post Visibility\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-03 13:29+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.7.1; wp-6.7.2\n"
+"X-Domain: kntnt-override-post-visibility"
+
+#. Description of the plugin
+msgid ""
+"Adds the option to make pending, scheduled, or private posts visible to "
+"anyone with the URL, optional adding automatic notification and/or noindex "
+"meta tag."
+msgstr ""
+
+#: kntnt-override-post-visibility.php:170
+msgid "No"
+msgstr ""
+
+#: kntnt-override-post-visibility.php:312
+msgid "NOTE"
+msgstr ""
+
+#: kntnt-override-post-visibility.php:167
+msgid "Override visibility"
+msgstr ""
+
+#: kntnt-override-post-visibility.php:303
+msgid "This content is outdated. It is available for reference only."
+msgstr ""
+
+#: kntnt-override-post-visibility.php:287
+msgid "This post is pending review."
+msgstr ""
+
+#: kntnt-override-post-visibility.php:298
+msgid "This post is scheduled for future publication."
+msgstr ""
+
+#: kntnt-override-post-visibility.php:295
+#, php-format
+msgid "This post is scheduled to be published on %s at %s."
+msgstr ""
+
+#: kntnt-override-post-visibility.php:173
+msgid "Yes, with automatic visitor alert"
+msgstr ""
+
+#: kntnt-override-post-visibility.php:171
+msgid "Yes, with automatic visitor alert and noindex meta tag"
+msgstr ""
+
+#: kntnt-override-post-visibility.php:172
+msgid "Yes, with noindex meta tag"
+msgstr ""
+
+#: kntnt-override-post-visibility.php:174
+msgid "Yes, without extras"
+msgstr ""
+
+#: kntnt-override-post-visibility.php:169
+msgid "— No Change —"
+msgstr ""

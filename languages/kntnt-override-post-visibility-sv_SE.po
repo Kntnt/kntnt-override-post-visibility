@@ -1,0 +1,75 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Kntnt Override Post Visibility\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-03 13:23+0000\n"
+"PO-Revision-Date: 2025-03-03 13:29+0000\n"
+"Last-Translator: \n"
+"Language-Team: Svenska\n"
+"Language: sv_SE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.7.1; wp-6.7.2\n"
+"X-Domain: kntnt-override-post-visibility"
+
+#. Description of the plugin
+msgid ""
+"Adds the option to make pending, scheduled, or private posts visible to "
+"anyone with the URL, optional adding automatic notification and/or noindex "
+"meta tag."
+msgstr ""
+"Lägger till möjligheten att göra väntande, schemalagda eller privata inlägg "
+"synliga för alla som har webbadressen, valfritt att lägga till automatisk "
+"avisering och/eller noindex-metatagg."
+
+#: kntnt-override-post-visibility.php:170
+msgid "No"
+msgstr "Nej"
+
+#: kntnt-override-post-visibility.php:312
+msgid "NOTE"
+msgstr "OBS"
+
+#: kntnt-override-post-visibility.php:167
+msgid "Override visibility"
+msgstr "Åsidosätt synlighet"
+
+#: kntnt-override-post-visibility.php:303
+msgid "This content is outdated. It is available for reference only."
+msgstr "Detta innehåll är föråldrat. Det är endast tillgängligt som referens."
+
+#: kntnt-override-post-visibility.php:287
+msgid "This post is pending review."
+msgstr "Detta inlägg är i väntan på granskning."
+
+#: kntnt-override-post-visibility.php:298
+msgid "This post is scheduled for future publication."
+msgstr "Detta inlägg är planerat för framtida publicering."
+
+#: kntnt-override-post-visibility.php:295
+#, php-format
+msgid "This post is scheduled to be published on %s at %s."
+msgstr "Detta inlägg är planerat att publiceras den %s kl. %s."
+
+#: kntnt-override-post-visibility.php:173
+msgid "Yes, with automatic visitor alert"
+msgstr "Ja, med automatiskt besökslarm"
+
+#: kntnt-override-post-visibility.php:171
+msgid "Yes, with automatic visitor alert and noindex meta tag"
+msgstr "Ja, med automatisk besökarvarning och noindex-metatagg"
+
+#: kntnt-override-post-visibility.php:172
+msgid "Yes, with noindex meta tag"
+msgstr "Ja, med noindex-metatagg"
+
+#: kntnt-override-post-visibility.php:174
+msgid "Yes, without extras"
+msgstr "Ja, utan något annat"
+
+#: kntnt-override-post-visibility.php:169
+msgid "— No Change —"
+msgstr "— Ingen ändring —"

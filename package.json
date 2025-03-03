@@ -1,0 +1,22 @@
+{
+  "name": "kntnt-override-post-visibility",
+  "version": "1.0.0",
+  "description": "WordPress plugin that adds the option to make pending, scheduled, or private posts visible to anyone with the URL, optional adding automatic notification and/or noindex meta tag.",
+  "homepage": "https://github.com/Kntnt/kntnt-override-post-visibility",
+  "author": "Thomas Barregren",
+  "license": "GPL-3.0-or-later",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "devDependencies": {
+    "@wordpress/components": "^29.5.0",
+    "@wordpress/core-data": "^7.19.0",
+    "@wordpress/data": "^10.19.0",
+    "@wordpress/edit-post": "^8.19.0",
+    "@wordpress/i18n": "^5.19.0",
+    "@wordpress/plugins": "^7.19.0",
+    "@wordpress/scripts": "^30.12.0"
+  }
+}

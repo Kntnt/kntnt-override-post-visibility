@@ -1,0 +1,118 @@
+:root {
+  /* Huvudfärger - standardvärden */
+  --kntnt-override-post-visibility-border-color: #e2b203;
+  --kntnt-override-post-visibility-background-color: #fff8e1;
+  --kntnt-override-post-visibility-text-color: #856404;
+  --kntnt-override-post-visibility-highlight-color: #de9d00;
+
+  /* Layout och storlekar */
+  --kntnt-override-post-visibility-padding: 1rem 1.25rem;
+  --kntnt-override-post-visibility-margin-bottom: 1.5rem;
+  --kntnt-override-post-visibility-border-radius: 6px;
+  --kntnt-override-post-visibility-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  /* Typografi */
+  --kntnt-override-post-visibility-font-size: 0.95rem;
+  --kntnt-override-post-visibility-line-height: 1.5;
+  --kntnt-override-post-visibility-font-weight: 500;
+}
+
+.kntnt-override-post-visibility {
+  /* Layout */
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: var(--kntnt-override-post-visibility-padding);
+  margin-bottom: var(--kntnt-override-post-visibility-margin-bottom);
+
+  /* Styling */
+  color: var(--kntnt-override-post-visibility-text-color);
+  background-color: var(--kntnt-override-post-visibility-background-color);
+  border-left: 4px solid var(--kntnt-override-post-visibility-border-color);
+  border-radius: var(--kntnt-override-post-visibility-border-radius);
+  box-shadow: var(--kntnt-override-post-visibility-box-shadow);
+
+  /* Typografi */
+  font-size: var(--kntnt-override-post-visibility-font-size);
+  line-height: var(--kntnt-override-post-visibility-line-height);
+  font-weight: var(--kntnt-override-post-visibility-font-weight);
+}
+
+/* Lägg till en varningsikon före innehållet */
+.kntnt-override-post-visibility::before {
+  content: "⚠️";
+  font-size: 1.2em;
+  margin-right: 0.75rem;
+}
+
+/* Status-specifika stilar - enligt kundens önskemål */
+.kntnt-override-post-visibility.status-pending {
+  /* Gult tema för pending */
+  --kntnt-override-post-visibility-border-color: #ffc107;
+  --kntnt-override-post-visibility-background-color: #fff8e1;
+  --kntnt-override-post-visibility-text-color: #856404;
+  --kntnt-override-post-visibility-highlight-color: #e2b203;
+}
+
+.kntnt-override-post-visibility.status-future {
+  /* Blått tema för schemalagd */
+  --kntnt-override-post-visibility-border-color: #0073aa;
+  --kntnt-override-post-visibility-background-color: #e6f6fb;
+  --kntnt-override-post-visibility-text-color: #00547a;
+  --kntnt-override-post-visibility-highlight-color: #0073aa;
+}
+
+.kntnt-override-post-visibility.status-private {
+  /* Rött tema för private */
+  --kntnt-override-post-visibility-border-color: #dc3545;
+  --kntnt-override-post-visibility-background-color: #fff5f5;
+  --kntnt-override-post-visibility-text-color: #721c24;
+  --kntnt-override-post-visibility-highlight-color: #dc3545;
+}
+
+/* Förstärk "NOTE:" texten */
+.kntnt-override-post-visibility strong {
+  color: var(--kntnt-override-post-visibility-highlight-color);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-right: 0.25rem;
+}
+
+/* Responsivitet */
+@media (max-width: 600px) {
+  .kntnt-override-post-visibility {
+    padding: 0.75rem 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .kntnt-override-post-visibility::before {
+    margin-bottom: 0.5rem;
+    margin-right: 0;
+  }
+}
+
+/* Mörkt tema stöd */
+@media (prefers-color-scheme: dark) {
+  /* Gult för pending - mörkt tema */
+  .kntnt-override-post-visibility.status-pending {
+    --kntnt-override-post-visibility-background-color: rgba(255, 248, 225, 0.1);
+    --kntnt-override-post-visibility-text-color: #ffd54f;
+    --kntnt-override-post-visibility-highlight-color: #ffc107;
+  }
+
+  /* Blått för schemalagd - mörkt tema */
+  .kntnt-override-post-visibility.status-future {
+    --kntnt-override-post-visibility-background-color: rgba(230, 246, 251, 0.1);
+    --kntnt-override-post-visibility-text-color: #4fc3f7;
+    --kntnt-override-post-visibility-highlight-color: #03a9f4;
+  }
+
+  /* Rött för private - mörkt tema */
+  .kntnt-override-post-visibility.status-private {
+    --kntnt-override-post-visibility-background-color: rgba(255, 245, 245, 0.1);
+    --kntnt-override-post-visibility-text-color: #ff8a80;
+    --kntnt-override-post-visibility-highlight-color: #ff5252;
+  }
+}
