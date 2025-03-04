@@ -3,7 +3,7 @@
  * @package Kntnt\OverridePostVisibility
  * Plugin Name:       Kntnt Override Post Visibility
  * Description:       Adds the option to make pending, scheduled, or private posts visible to anyone with the URL, optional adding automatic notification and/or noindex meta tag.
- * Version:           1.0.0
+ * Version:           1.1.0
  * Tags:              visibility, post status, pending, scheduled, private
  * Plugin URI:        https://github.com/Kntnt/kntnt-override-post-visibility
  * Tested up to: 6.7
@@ -224,10 +224,8 @@ class Plugin {
 			return $posts;
 		}
 
-		// Get the current URL path
-		$url_path = trim( parse_url( add_query_arg( [] ), PHP_URL_PATH ), '/' );
-		$url_parts = explode( '/', $url_path );
-		$slug = end( $url_parts );
+		// Get te slug from the URL
+		$slug = get_query_var('name');
 
 		// Retrieve a post with this permalink part and the status pending/scheduled/private.
 		$overridden_posts = get_posts( [
